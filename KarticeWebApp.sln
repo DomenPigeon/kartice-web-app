@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarticeWebApp", "KarticeWebApp\KarticeWebApp.csproj", "{7E367309-18AA-4538-A93A-2D91FC8ADC12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KarticeWebApp", "KarticeWebApp\KarticeWebApp.csproj", "{A220E9E8-2F2F-4D1B-8702-225B5ACDA9BF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7E367309-18AA-4538-A93A-2D91FC8ADC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7E367309-18AA-4538-A93A-2D91FC8ADC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7E367309-18AA-4538-A93A-2D91FC8ADC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7E367309-18AA-4538-A93A-2D91FC8ADC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A220E9E8-2F2F-4D1B-8702-225B5ACDA9BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A220E9E8-2F2F-4D1B-8702-225B5ACDA9BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A220E9E8-2F2F-4D1B-8702-225B5ACDA9BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A220E9E8-2F2F-4D1B-8702-225B5ACDA9BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
