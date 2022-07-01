@@ -1,0 +1,10 @@
+﻿@page "/Spar"
+@using KarticeWebApp.Data
+@inject NavigationManager NavigationManager
+
+<h1>@Code</h1>
+<img src="spar.jpg" class="img-fluid" alt="Koda: @Code" @onclick="() => NavigationManager.NavigateTo(Links.Home)">
+
+@code{
+        private const string Code = "598 35 335";
+}
