@@ -1,10 +1,10 @@
 ﻿@page "/Omw"
-@using KarticeWebApp.Data
-@inject NavigationManager NavigationManager
 
 <h1>@Code</h1>
-<img src="omw.jpg" class="img-fluid" alt="Koda: @Code" @onclick="() => NavigationManager.NavigateTo(Links.Home)">
+<img src="omw.jpg" alt="@Code" class="img-fluid" style="@_imageStyle" @onclick="() => Utils.RotateImage(ref _rotation, out _imageStyle)">
 
 @code{
-        private const string Code = "70 5000 4862 466";
+    private string Code = "70 5000 4862 466";
+    private string? _imageStyle;
+    private int _rotation;
 }
